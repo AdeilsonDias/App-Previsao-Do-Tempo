@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+.container_wheather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(assets/imagem_chuva.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+
+}
+.box_wheather{
+    background-color: rgba(0, 0, 0, 0.479);
+    padding: 4rem;
+    border-radius: 0.9rem;
+    width:24rem;
+    backdrop-filter: blur(0.2rem);
+}
+.search_city {
+    margin-top: -2rem;
+    display: flex;
+    align-items: center;
+}
+.search_city input {
+    width: 100%;
+    padding: 0.7rem;
+    outline: none;
+    border-radius: 0.4rem;
+    background-color: rgb(41, 40, 40);
+    border: none;
+    color:white;
+ 
+}
+.search_city input::placeholder{
+    color: white;
+}
+.search_city button{
+    text-align: center;
+    padding:0.9rem ;
+    border: none;
+    cursor: pointer;
+    width: 4rem;
+    background-color: rgb(70, 70, 70);
+    border-radius: 0.4rem;
+    color: white;
+    margin-left: 1rem;
+    transition: 1s ease;
+    outline: none;
+}
+.search_city button:hover{
+    background-color: rgb(44, 44, 44);
+}
+.box_result{
+    margin-top: 2rem;
+    color: rgb(226, 226, 226);
+    text-align: center;
+    font-size: 1.3rem;
+}
+p{
+    color: rgb(226, 226, 226);
+    font-size: 1.3rem;
+    margin-top: 1.3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+footer{
+    margin-top: -1.4rem;
+    color: rgb(202, 194, 194);
+    z-index: 2;
+}
+footer span{
+    color: rgb(48, 28, 28);
+    background-color: rgb(134, 134, 134);
+    border-radius: 1rem;
+    padding: 0.22rem;
+
+}
